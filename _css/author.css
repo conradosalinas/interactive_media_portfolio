@@ -1,4 +1,6 @@
-body { background-color: #f7f7f7; }
+@import url(../_fonts/icomoon/style.css);
+
+body { background-color: #f7f7f7; text-align: center; }
 header {
 	margin-left: 9px;
 	text-align: left;
@@ -39,7 +41,7 @@ nav#mainmenu a:hover {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 3px;
-	width: 7%;
+	width: 11%;
 	height: auto;
 }
 /*- - - - - I M A G E S - I N D E X - - - - -*/
@@ -59,6 +61,67 @@ nav#mainmenu a:hover {
 	padding-bottom: 15px;
 	font-family: 'Arbutus Slab', serif;
 }
+#dark {
+	display: none;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: rgba(0,0,0,.7);
+}
+.light {
+	background-color: #fff;
+	width: 500px;
+	height: 281px;
+	padding: 10px;
+
+	position: fixed;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	margin: auto;
+}
+.light a.close {
+	position: absolute;
+	right: -12px;
+	top: -12px;
+
+	background-color: black;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 3px solid white;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+				font-weight: bold;
+}
+.light img {
+	width: 100%;
+	height: auto;
+}
+
+.light .icon {
+	font-size: 50px;
+	color: #fff;
+				
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	height: 200px;
+
+	z-index: 11;
+	opacity: .5;
+	transition: all .5s;
+}
+.light:hover .icon { opacity: .5; }
+.light .icon:hover { opacity: 1; }
+.light .icon-arrow-left { left: 0px; top: 100px; }
+.light .icon-arrow-right { right: 0px; top: 100px; }
+
 /*- - - - - C O N T A C T - P A G E  - - - - -*/
 #contactcontent {
 	margin: 3px;
@@ -78,4 +141,10 @@ nav#mainmenu a:hover {
 #hrline {
 	background-color: #0e0e0e;
 	padding-bottom: 1px;
+}
+.form-control-feedback {
+position: relative;
+display: inline;
+top: 0;
+line-height: 14px;
 }
