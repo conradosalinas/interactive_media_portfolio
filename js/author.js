@@ -19,7 +19,6 @@ $(document).ready(function(){
 		{
 			$('#wrapper').removeClass('mobile');
 			$('.glyphicon-align-justify').hide();
-			$
 			$('#user-icons2').hide();
 			$('#nav-links').show();
 			$('#nav-icons').show();
@@ -47,4 +46,17 @@ $(document).ready(function(){
 	}
 	$('.glyphicon-align-justify').click(mm_toggle);
 	// - - - - End . Tuck Away Menu - - - -
+	$('#nav-links a').click(function(event){
+		event.preventDefault();
+
+		// figure out how far the section is from the top
+		var whichSection = $(this).attr('href');
+		var destiny = $(whichSection).offset().top - 50;
+
+		$(window).scrollTo(destiny, 500);
+
+
+	});
+
+
 }); //doc ready ends
