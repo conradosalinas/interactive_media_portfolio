@@ -1,0 +1,354 @@
+@import url(../fonts/icomoon/style.css);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	padding-top: 50px;
+	height: 100%;
+}
+a {
+	border: 0;
+}
+a:hover {
+	border: 0;
+}
+/*- - - - - - S T A R T . N A V I G A T I O N - - - - - -*/
+.navbar-logo img {
+	width: auto;
+	height: 50px;
+	margin: 0px;
+}
+.navbar {
+	background-color: #e16c65;
+	border: 0px;
+}
+.container a {
+	text-decoration: none;
+	color: #131416;
+}
+div#nav-links {
+	font-weight: 600;
+	font-size: 10pt;
+	display: inline;
+	margin: 0;
+	margin-left: 17px;
+}
+div#nav-links a {
+	vertical-align: -1.5px;
+	margin-right: 0px;
+	padding: 16.3px;
+}
+a.last {
+	margin-right: 0;
+}
+.mobile #news-test {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.mobile div#nav-links a:hover {
+	background: #e16c65;
+	color: #131416;
+}
+.mobile div#nav-links a {
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 0px;
+	vertical-align: 20px;
+	background: #131416;
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 12px;
+}
+div#nav-links a:hover {
+	background-color: #131416;
+	color: #fff;
+
+	text-decoration: none;
+}
+nav#nav-links a.selected { 
+	background: #131416; 
+	color: #fff;
+}
+#user-icons {
+	float: right;
+}
+#nav-icons {
+	color: #131416;
+	float: right;
+}
+#nav-icons .glyphicon {
+	margin-left: 13px;
+}
+#nav-icons .glyphicon:hover {
+	color: #fff;
+}
+#search-form {
+	position: relative;
+	right: 60px;
+	top: 13px;
+}
+#user-icons {
+	font-size: 13pt;
+	position: relative;
+	top: -11px;
+}
+#search-button {
+	color: #e16c65;
+	top: 2px;
+	display: inline;
+	position: relative;
+	left: -40px;
+}
+input#search-field {
+	background-color: #131416;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding-left: 11px;
+	padding-right: 11px;
+	width: 200px;
+	height: 26px;
+}
+input#search-field:focus {
+	outline: solid #fff 2px;
+}
+input#search-field2:focus {
+	outline: solid #fff 2px;
+}
+#justify {
+	color: blue;
+}
+/*Placeholder - Color*/
+::-webkit-input-placeholder { color: #fff; }
+:-moz-placeholder { color: #fff; }
+::-moz-placeholder { color: #fff; }
+:-ms-input-placeholder { color: #fff; }
+/*- - - - Tuck Away - - - -*/
+.mobile .navbar {
+	height: 50px;
+}
+.mobile .navbar-logo img {
+	width: auto;
+	height: 50px;
+	position: relative;
+	margin: 0px;
+	top: -29px;
+	left: 0px;
+	margin-right: 0px;
+}
+.glyphicon-align-justify {
+	padding-left: 0px;
+	font-size: 18pt;
+	top: 12.4px;
+	left: 140px;
+	color: #131416;
+
+}
+.mobile a {
+	text-decoration: none;
+}
+.glyphicon-align-justify:hover {
+	color: #fff;
+}
+#user-icons2 .glyphicon:hover {
+	color: #fff;
+}
+#user-icons2 .glyphicon {
+	color: #131416;
+	float: right;
+	margin-left: 12px;
+	right: 20px;
+	font-size: 13pt;
+	top: -11.6px;
+}
+/*- - - - - - E N D . N A V I G A T I O N - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . S E C T I O N - N E W S F E E D / A B O U T - - - - - -*/
+#newsfeed {
+	height: 600px;
+	background-color: #131416;
+}
+#carousel-example-generic {
+	width: 400px;
+	height: 600px;
+
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+}
+#carousel-example-generic img {
+	height: 600px;
+	width: auto;
+	max-width: 500%;
+	float: left;
+}
+#carousel-example-generic {
+	background-color: #131416;
+}
+#about {
+	margin-bottom: 50px;
+}
+.inset {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h1 {
+	font-weight: 300;
+}
+h2 {
+	color: #e16c65;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 9pt;
+	margin-left: 1px;
+}
+#founder {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 7.5pt;
+	margin-top: -12px;
+}
+/*- - - - - - E N D . S E C T I O N - N E W S F E E D / A B O U T - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . S E C T I O N - S H O P - - - - - -*/
+#shop {
+	background: #131416;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+#shop p {
+	font-size: 9pt;
+}
+#shop .inset img {
+	margin-top: 20px;
+	display: inline;
+	margin-bottom: 20px;
+}
+#shop .inset img:hover {
+	opacity: .5;
+}
+/*- - - - - - E N D . S E C T I O N - S H O P - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . S E C T I O N - S T O R E S - - - - - -*/
+#stores {
+	margin-bottom: 50px;
+}
+#stores .inset img {
+	margin-top: 20px;
+	display: inline;
+	margin-bottom: 20px;
+}
+#stores .inset img:hover {
+	opacity: .5;
+}
+h3 {
+	color: #131416;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 13pt;
+	margin-left: 1px;
+}
+/*- - - - - - E N D . S E C T I O N - S T O R E S - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . F O O T E R - - - - - -*/
+/*footer - placeholder color*/
+footer ::-webkit-input-placeholder {
+   color: #131416;
+}
+
+footer :-moz-placeholder { /* Firefox 18- */
+   color: #131416;  
+}
+
+footer ::-moz-placeholder {  /* Firefox 19+ */
+   color: #131416;
+}
+
+footer :-ms-input-placeholder {
+   color: #131416; 
+}
+/*end - placeholder color*/
+
+footer h1 {
+	font-size: 30px;
+	font-weight: 900;
+}
+footer {
+	font-size: 8pt;
+	font-weight: 300;
+	color: #fff;  
+	padding: 15px; 
+	background-color: #131416;
+	text-align: center;
+}
+footer div {
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 50px;
+	text-align: left;
+	padding-bottom: 23px;
+}
+/*div#footer-left {
+	margin-left: 100px;
+}*/
+/*
+#footer-left {
+	display: inline;
+	float: left;
+}
+#footer-middle {
+	display: inline;
+	float: left;
+}
+#footer-right {
+	display: inline;
+	float: left;
+}
+*/
+#footer-left .icomoon {
+	color: #e16c65;
+	font-size: 13pt;
+	margin-right: 10px;
+}
+#footer-left .icomoon a {
+	text-decoration: none;
+}
+#footer-left .icomoon:hover {
+	color: #fff;
+}
+#footer-middle input {
+	font-size: 8.5pt;
+	font-weight: 300;
+	background-color: #e16c65;
+	border: 0;
+	border-radius: 3px;
+	padding-left: 11px;
+	padding-right: 11px;
+	width: 200px;
+	height: 26px;
+}
+/*- - - - - - F O O T E R - T A B L E - - - - - -*/
+#footer-table a {
+	color: #e16c65;
+	text-decoration: none;
+}
+#footer-table a:hover {
+	color: #fff;
+}
+#footer-table td {
+	padding-right: 25px;
+}
+
+/*- - - - M E D I A - Q U E R I E S - - - -*/
+@media screen and (max-width: 780px) {
+	footer { 
+		text-align: left;
+		vertical-align: left;
+	}
+}
+/*- - - - - - E N D . F O O T E R - - - - - -*/
