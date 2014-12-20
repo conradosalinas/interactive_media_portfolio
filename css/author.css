@@ -6,6 +6,12 @@ body {
 	padding-top: 50px;
 	height: 100%;
 }
+a {
+	border: 0;
+}
+a:hover {
+	border: 0;
+}
 /*- - - - - - S T A R T . N A V I G A T I O N - - - - - -*/
 .navbar-logo img {
 	width: auto;
@@ -34,6 +40,28 @@ div#nav-links a {
 }
 a.last {
 	margin-right: 0;
+}
+.mobile #news-test {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.mobile div#nav-links a:hover {
+	background: #e16c65;
+	color: #131416;
+}
+.mobile div#nav-links a {
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 0px;
+	vertical-align: 20px;
+	background: #131416;
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 12px;
 }
 div#nav-links a:hover {
 	background-color: #131416;
@@ -138,11 +166,24 @@ input#search-field2:focus {
 	top: -11.6px;
 }
 /*- - - - - - E N D . N A V I G A T I O N - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . S E C T I O N - N E W S F E E D / A B O U T - - - - - -*/
+#newsfeed {
+	height: 600px;
+	background-color: #131416;
+}
+#carousel-example-generic {
+	width: 400px;
+	height: 600px;
 
-/*- - - - - - S T A R T . S E C T I O N - O N E - - - - - -*/
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+}
 #carousel-example-generic img {
 	height: 600px;
 	width: auto;
+	max-width: 500%;
 	float: left;
 }
 #carousel-example-generic {
@@ -151,24 +192,69 @@ input#search-field2:focus {
 #about {
 	margin-bottom: 50px;
 }
-#about h1 {
-	font-weight: 300;
-	margin-left: 50px;
-}
-#about p {
-	font-weight: 400;
+.inset {
 	margin-left: 50px;
 	margin-right: 50px;
+}
+h1 {
+	font-weight: 300;
+}
+h2 {
+	color: #e16c65;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 9pt;
+	margin-left: 1px;
 }
 #founder {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 7.5pt;
 	margin-top: -12px;
-	margin-left: 50px;
 }
-/*- - - - - - E N D . S E C T I O N - O N E - - - - - -*/
-
+/*- - - - - - E N D . S E C T I O N - N E W S F E E D / A B O U T - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . S E C T I O N - S H O P - - - - - -*/
+#shop {
+	background: #131416;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+#shop p {
+	font-size: 9pt;
+}
+#shop .inset img {
+	margin-top: 20px;
+	display: inline;
+	margin-bottom: 20px;
+}
+#shop .inset img:hover {
+	opacity: .5;
+}
+/*- - - - - - E N D . S E C T I O N - S H O P - - - - - -*/
+/*///////////////////////////////////////////////*/
+/*- - - - - - S T A R T . S E C T I O N - S T O R E S - - - - - -*/
+#stores {
+	margin-bottom: 50px;
+}
+#stores .inset img {
+	margin-top: 20px;
+	display: inline;
+	margin-bottom: 20px;
+}
+#stores .inset img:hover {
+	opacity: .5;
+}
+h3 {
+	color: #131416;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 13pt;
+	margin-left: 1px;
+}
+/*- - - - - - E N D . S E C T I O N - S T O R E S - - - - - -*/
+/*///////////////////////////////////////////////*/
 /*- - - - - - S T A R T . F O O T E R - - - - - -*/
 /*footer - placeholder color*/
 footer ::-webkit-input-placeholder {
@@ -246,7 +332,6 @@ footer div {
 	width: 200px;
 	height: 26px;
 }
-
 /*- - - - - - F O O T E R - T A B L E - - - - - -*/
 #footer-table a {
 	color: #e16c65;
