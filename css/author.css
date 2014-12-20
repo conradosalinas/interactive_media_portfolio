@@ -168,9 +168,22 @@ input#search-field2:focus {
 /*- - - - - - E N D . N A V I G A T I O N - - - - - -*/
 /*///////////////////////////////////////////////*/
 /*- - - - - - S T A R T . S E C T I O N - N E W S F E E D / A B O U T - - - - - -*/
+#newsfeed {
+	height: 600px;
+	background-color: #131416;
+}
+#carousel-example-generic {
+	width: 400px;
+	height: 600px;
+
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+}
 #carousel-example-generic img {
 	height: 600px;
 	width: auto;
+	max-width: 500%;
 	float: left;
 }
 #carousel-example-generic {
